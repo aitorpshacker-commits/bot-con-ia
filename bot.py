@@ -35,7 +35,7 @@ async def división(ctx, num1:float, num2:float):
 @bot.command()
 async def multiplicación(ctx, num1:float, num2:float):
     resultado = num1 * num2
-    await ctx.send(f"el resultado de la multiplicación es: {resultado}")
+    await ctx.send(f"el resultado de multiplicar el primer numero con el segundo es: {resultado}")
 
 @bot.command()
 async def ia(ctx,*,pregunta):
